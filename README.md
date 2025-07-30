@@ -47,7 +47,7 @@ After data cleaning and preprocessing
 - Ridge and Lasso gives R2-score 0.8296 and 0.8222
 
 ## Conclusions
-This project demonstrates how simple regression models can be used to estimate property prices. Ridge Regression provided slightly better results by reducing overfitting.
+This project demonstrates how simple regression models can be used to estimate property prices.
 
    
      
