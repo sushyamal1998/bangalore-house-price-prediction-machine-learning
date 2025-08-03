@@ -23,6 +23,9 @@ This project uses Machine Learning Techniques - Linear Regression, Ridge and Las
 - Fill the missing values of each column
 - As location has 1294 unique categorical values. so we reduce the size of this value as when we apply **one_hot_encoding** to transform categorical to numerical then so manny unnecessary columns are created
 - Create new features price_sqrt, it helps to remove outlier
+- **Outlier Detection:**
+       - In the "bhk" column there are minimum 1 bhk and maximun 43 bhk present. so first we calculate "total_sqrt"/ "bhk" and filter those value who are greater than 300
+       - The difference between min and max value in "price_sqrt" column is very large. so we apply z-score to remove outlier
    
 ---
 ## Features used
@@ -41,7 +44,7 @@ After data cleaning and preprocessing
 ### 2. Ridge Regression and Lasso Regression
 - Helps to reduce overfitting and handles Multicolinearity
 ### 3. Neural Network
-- Apply to get better performance
+- I apply this model with 3 hidden layer and 1 output layer with size 128,64,32 and 1. I apply **relu** activation function on hidden layer and **linear** activation function on output layer. I use **mean_squared_loss** and **adam** optimizer fot htis model with **epochs = 25**
 
 ---
 ## Results
@@ -50,7 +53,7 @@ After data cleaning and preprocessing
 - Neural Network model give R2-score 0.8445
 
 ## Conclusions
-This project demonstrates how simple regression models and neural network model can be used to estimate property prices.
+This project demonstrates how simple regression models and neural network model can be used to estimate property prices in the city Bangalore.
 
    
      
