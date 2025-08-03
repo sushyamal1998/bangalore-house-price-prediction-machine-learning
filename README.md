@@ -23,9 +23,15 @@ This project uses Machine Learning Techniques - Linear Regression, Ridge and Las
 - Fill the missing values of each column
 - As location has 1294 unique categorical values. so we reduce the size of this value as when we apply **one_hot_encoding** to transform categorical to numerical then so manny unnecessary columns are created
 - Create new features price_sqrt, it helps to remove outlier
-- **Outlier Detection:**
-       -- In the "bhk" column there are minimum 1 bhk and maximun 43 bhk present. so first we calculate "total_sqrt"/ "bhk" and filter those value who are greater than 300/n
-       - The difference between min and max value in "price_sqrt" column is very large. so we apply z-score to remove outlier
+#### Outlier Detection
+ - **BHK Column:**
+  - The `bhk` (bedroom) column has values ranging from **1 to 43**, which seems unusual.
+  - To detect outliers, we calculated the ratio:  
+    ```
+    total_sqft / bhk
+    ```
+    - If this value is **less than 300**, it's likely an outlier and was removed.
+      
    
 ---
 ## Features used
