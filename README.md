@@ -25,13 +25,16 @@ This project uses Machine Learning Techniques - Linear Regression, Ridge and Las
 - Create new features price_sqrt, it helps to remove outlier
 #### Outlier Detection
  - **BHK Column:**
-  - The `bhk` (bedroom) column has values ranging from **1 to 43**, which seems unusual.
+  - The `bhk` (bedroom) column has values ranging from **1 to 43**, which seems unusual
   - To detect outliers, we calculated the ratio:  
     ```
     total_sqft / bhk
     ```
-    - If this value is **less than 300**, it's likely an outlier and was removed.
-      
+    - If this value is **less than 300**, it's likely an outlier and was removed
+ - **Price per Square Foot:**
+  - The `price_per_sqft` column showed a **very large range** between the minimum and maximum values
+  - To remove extreme values, we applied the **location-wise Z-score method**:
+    - Outliers were detected and removed based on mean ± standard deviation for each location group    
    
 ---
 ## Features used
