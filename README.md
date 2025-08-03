@@ -40,14 +40,17 @@ After data cleaning and preprocessing
 - Assume linear relation exists between features and target price
 ### 2. Ridge Regression and Lasso Regression
 - Helps to reduce overfitting and handles Multicolinearity
+### 3. Neural Network
+- Apply to get better performance
 
 ---
 ## Results
 - Linear regression gives R2-score 0.8294
 - Ridge and Lasso gives R2-score 0.8296 and 0.8222
+- Neural Network model give R2-score 0.8445
 
 ## Conclusions
-This project demonstrates how simple regression models can be used to estimate property prices.
+This project demonstrates how simple regression models and neural network model can be used to estimate property prices.
 
    
      
