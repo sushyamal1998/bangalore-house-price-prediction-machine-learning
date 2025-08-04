@@ -1,6 +1,6 @@
 # Bangalore House price Prediction
 
-This project uses Machine Learning Techniques - Linear Regression, Ridge and Lasso Regression, to predict the house price based on various feature in the location **Bangalore**
+This project uses Machine Learning Techniques - Linear Regression, Ridge, Lasso Regression and Neural network model, to predict the house price based on various feature in the location **Bangalore**
 
 ## Dataset
 - **Source:** `Bengaluru_House_Data.csv`
