@@ -19,6 +19,7 @@ This project uses Machine Learning Techniques - Linear Regression, Ridge, Lasso 
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 Real price prediction is influenced by multiple factors such as location, number of bedrooms, area, and amenities. This project builds a predictive model for Bangalore housing prices using both classical ML algorithms and a simple Neural Network, and compares their performance.
+
 ---
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
@@ -106,9 +107,9 @@ bangalore-house-price-prediction/
 ---
 
 <h2><a class="anchor" id="results"></a>Results</h2>
-- Linear regression gives R2-score 0.8294
-- Ridge and Lasso gives R2-score 0.8296 and 0.8222
-- Neural Network model give R2-score 0.8445
+- Linear regression gives R2-score 0.8294<br>
+- Ridge and Lasso gives R2-score 0.8296 and 0.8222<br>
+- Neural Network model give R2-score 0.8445<br>
 
 ---
 
