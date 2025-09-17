@@ -2,7 +2,7 @@
 
 This project uses Machine Learning Techniques - Linear Regression, Ridge, Lasso Regression and Neural network model, to predict the house price based on various feature in the location **Bangalore**
 
---
+---
 
 ## Contents
 - <a href="#overview">Overview</a>
@@ -22,9 +22,9 @@ Real price prediction is influenced by multiple factors such as location, number
 ---
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
-- **Source:** `Bengaluru_House_Data.csv`
-- **size of dataset:** 13320 rows and 9 columns
-- **Attributes:**
+-**Source:** `Bengaluru_House_Data.csv`
+-**size of dataset:** 13320 rows and 9 columns
+-**Attributes:**
    - area_ttype
    - availability
    - location
@@ -70,11 +70,11 @@ bangalore-house-price-prediction/
 ---
 
 <h2><a class="anchor" id="data-cleaning--preprocessing"></a>Data Cleaning & Preprocessing</h2>
-- Remove unnecessary columns which are not used to predict the house price
-- Converted total_sqrt to numeric
-- Fill the missing values of each column
-- As location has 1294 unique categorical values. so we reduce the size of this value as when we apply **one_hot_encoding** to transform categorical to numerical then so manny unnecessary columns are created
-- Create new features price_sqrt, it helps to remove outlier
+- Remove unnecessary columns which are not used to predict the house price<br>
+- Converted total_sqrt to numeric<br>
+- Fill the missing values of each column<br>
+- As location has 1294 unique categorical values. so we reduce the size of this value as when we apply **one_hot_encoding** to transform categorical to numerical then so manny unnecessary columns are created<br>
+- Create new features price_sqrt, it helps to remove outlier<br>
 
 ---
 
