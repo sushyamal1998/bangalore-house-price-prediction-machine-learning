@@ -26,7 +26,7 @@ Real price prediction is influenced by multiple factors such as location, number
 - **Source** `Bengaluru_House_Data.csv`
 - **size of dataset:** 13320 rows and 9 columns
 - **Attributes:**
-   - area_ttype
+   - area_type
    - availability
    - location
    - size
