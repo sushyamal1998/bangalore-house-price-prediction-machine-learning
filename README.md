@@ -23,9 +23,9 @@ Real price prediction is influenced by multiple factors such as location, number
 ---
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
--**Source:** `Bengaluru_House_Data.csv`
--**size of dataset:** 13320 rows and 9 columns
--**Attributes:**
+- **Source** `Bengaluru_House_Data.csv`
+- **size of dataset:** 13320 rows and 9 columns
+- **Attributes:**
    - area_ttype
    - availability
    - location
@@ -41,7 +41,7 @@ Real price prediction is influenced by multiple factors such as location, number
 <h2><a class="anchor" id="technologies--tools"></a>Technologies & Tools</h2>
 - **Python** (pandas,numpy, scikir-learn)
 - **Models:** Linear regression, Ridge, Lasso, Neural Network
-- **version control:**Git/GitHub
+- **version control:** Git/GitHub
 - **jupyter notebook** for analysis and documentation
 
 ---
